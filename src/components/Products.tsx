@@ -2,43 +2,50 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ShoppingBag, MessageCircle } from "lucide-react";
+import productTadka1008 from "@/assets/product-tadka-1008.png";
 
 const products = [
   {
-    name: "SODAM Classic",
+    name: "SODAM Tadka Hing 1008",
     description: "Perfect for everyday cooking with a mild, balanced aroma",
     strength: "Mild",
     badgeColor: "bg-accent/20 text-accent-foreground",
+    image: productTadka1008,
   },
   {
     name: "SODAM Premium",
     description: "Enhanced purity and aroma for authentic Indian recipes",
     strength: "Medium",
     badgeColor: "bg-primary/20 text-primary",
+    image: null,
   },
   {
     name: "SODAM Gold",
     description: "Extra pure formulation for discerning home chefs",
     strength: "Medium-Strong",
     badgeColor: "bg-primary/30 text-primary",
+    image: null,
   },
   {
     name: "SODAM Royal",
     description: "Restaurant-grade quality with robust flavor profile",
     strength: "Strong",
     badgeColor: "bg-secondary/30 text-secondary",
+    image: null,
   },
   {
     name: "SODAM Supreme",
     description: "Maximum strength and aroma for professional kitchens",
     strength: "Extra Strong",
     badgeColor: "bg-secondary/40 text-secondary-foreground",
+    image: null,
   },
   {
     name: "SODAM Ultra",
     description: "Our finest offering with unmatched purity and intensity",
     strength: "Ultra Strong",
     badgeColor: "bg-secondary/60 text-secondary-foreground",
+    image: null,
   },
 ];
 
@@ -74,6 +81,15 @@ const Products = () => {
               className="animate-scale-in hover:shadow-premium transition-all duration-300 hover:-translate-y-2 border-border/50"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
+              {product.image && (
+                <div className="relative w-full h-64 overflow-hidden rounded-t-lg bg-muted">
+                  <img 
+                    src={product.image} 
+                    alt={product.name}
+                    className="w-full h-full object-contain p-4"
+                  />
+                </div>
+              )}
               <CardHeader>
                 <div className="flex justify-between items-start mb-2">
                   <CardTitle className="font-display text-2xl">{product.name}</CardTitle>
