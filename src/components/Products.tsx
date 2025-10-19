@@ -82,11 +82,11 @@ const Products = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               {product.image && (
-                <div className="relative w-full h-64 overflow-hidden rounded-t-lg bg-muted">
+                <div className="relative w-full h-64 overflow-hidden rounded-t-lg bg-gradient-to-br from-muted/30 to-muted/50">
                   <img 
                     src={product.image} 
                     alt={product.name}
-                    className="w-full h-full object-contain p-4"
+                    className="w-full h-full object-contain p-6"
                   />
                 </div>
               )}
