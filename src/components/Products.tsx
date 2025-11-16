@@ -93,7 +93,7 @@ const Products = () => {
                   <img 
                     src={product.image} 
                     alt={product.name}
-                    className={`w-full h-full object-contain ${index === 0 ? 'p-2' : 'p-0.5'}`}
+                    className={`w-full h-full ${index === 0 ? 'object-contain p-2' : 'object-cover'}`}
                   />
                 </div>
               )}
