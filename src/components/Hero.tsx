@@ -14,7 +14,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/75"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[hsl(0,65%,40%)]/95 via-[hsl(0,65%,40%)]/85 to-[hsl(0,65%,40%)]/75 dark:from-[hsl(0,65%,25%)]/95 dark:via-[hsl(0,65%,25%)]/85 dark:to-[hsl(0,65%,25%)]/75"></div>
       </div>
 
       {/* Content */}
@@ -26,10 +26,10 @@ const Hero = () => {
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-primary drop-shadow-lg">
             SODAM
           </h1>
-          <p className="font-display text-2xl md:text-3xl lg:text-4xl text-muted mb-4 italic">
+          <p className="font-display text-2xl md:text-3xl lg:text-4xl text-white/80 mb-4 italic">
             સ્વાદ ને સોડમનો સંગમ
           </p>
-          <p className="text-xl md:text-2xl text-background/90 mb-8 max-w-2xl mx-auto font-light">
+          <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto font-light">
             The Pure Essence of Flavor – Premium Hing You Can Trust
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-10">
