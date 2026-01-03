@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="font-heading text-4xl md:text-5xl font-semibold text-foreground mb-4">
             Why Choose <span className="text-primary">SODAM</span>
           </h2>
           <div className="h-1 w-20 bg-primary mx-auto mb-6"></div>
@@ -59,7 +59,7 @@ const WhyChooseUs = () => {
                 <div className="mb-4 inline-block p-3 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-all">
                   <Icon className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="font-display text-xl font-semibold text-foreground mb-3">
+                <h3 className="font-heading text-xl font-semibold text-foreground mb-3">
                   {benefit.title}
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">

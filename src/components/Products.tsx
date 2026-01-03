@@ -72,7 +72,7 @@ const Products = () => {
     <section className="py-20 bg-muted/30" id="products">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="font-heading text-4xl md:text-5xl font-semibold text-foreground mb-4">
             Our Premium <span className="text-primary">Range</span>
           </h2>
           <div className="h-1 w-20 bg-primary mx-auto mb-6"></div>
@@ -100,7 +100,7 @@ const Products = () => {
               <CardHeader>
                 <div className="flex justify-between items-start mb-2">
                   <div>
-                    <CardTitle className="font-display text-2xl mb-1">{product.name}</CardTitle>
+                    <CardTitle className="font-heading text-2xl mb-1">{product.name}</CardTitle>
                     <p className="text-sm font-semibold text-primary">{product.subtitle}</p>
                   </div>
                   <Badge className={product.badgeColor}>{product.strength}</Badge>
