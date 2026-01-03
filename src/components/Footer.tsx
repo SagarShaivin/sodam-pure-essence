@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="font-heading text-3xl font-semibold text-primary mb-2">SODAM</h3>
+            <h3 className="font-display text-3xl font-bold text-primary mb-2">SODAM</h3>
             <p className="text-background/80 mb-4 italic">સ્વાદ ને સોડમનો સંગમ</p>
             <p className="text-background/70 text-sm">
               Premium quality Hing (Asafoetida) since 1956

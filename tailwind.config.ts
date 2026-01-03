@@ -15,7 +15,6 @@ export default {
     extend: {
       fontFamily: {
         'display': ['Cinzel Decorative', 'serif'],
-        'heading': ['Libre Baskerville', 'serif'],
         'body': ['Playfair Display', 'serif'],
         'sans': ['Inter', 'sans-serif'],
       },

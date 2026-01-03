@@ -13,7 +13,7 @@ const About = () => {
             />
           </div>
           <div className="animate-fade-in">
-            <h2 className="font-heading text-4xl md:text-5xl font-semibold text-foreground mb-6">
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-6">
               Our <span className="text-primary">Legacy</span>
             </h2>
             <div className="h-1 w-20 bg-primary mb-6"></div>
@@ -28,17 +28,17 @@ const About = () => {
             </p>
             <div className="flex items-center gap-4">
               <div className="text-center">
-                <div className="text-3xl font-semibold text-primary font-heading">68+</div>
+                <div className="text-3xl font-bold text-primary font-display">68+</div>
                 <div className="text-sm text-muted-foreground">Years of Trust</div>
               </div>
               <div className="h-12 w-px bg-border"></div>
               <div className="text-center">
-                <div className="text-3xl font-semibold text-primary font-heading">100%</div>
+                <div className="text-3xl font-bold text-primary font-display">100%</div>
                 <div className="text-sm text-muted-foreground">Natural & Pure</div>
               </div>
               <div className="h-12 w-px bg-border"></div>
               <div className="text-center">
-                <div className="text-3xl font-semibold text-primary font-heading">6</div>
+                <div className="text-3xl font-bold text-primary font-display">6</div>
                 <div className="text-sm text-muted-foreground">Premium Ranges</div>
               </div>
             </div>
