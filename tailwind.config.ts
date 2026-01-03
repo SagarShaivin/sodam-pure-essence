@@ -15,6 +15,7 @@ export default {
     extend: {
       fontFamily: {
         'display': ['Cinzel Decorative', 'serif'],
+        'heading': ['Cormorant Garamond', 'serif'],
         'body': ['Playfair Display', 'serif'],
         'sans': ['Inter', 'sans-serif'],
       },

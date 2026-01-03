@@ -15,7 +15,7 @@ const Contact = () => {
     <section className="py-20 bg-muted/30" id="contact">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="font-heading text-4xl md:text-5xl font-semibold text-foreground mb-4">
             Get in <span className="text-primary">Touch</span>
           </h2>
           <div className="h-1 w-20 bg-primary mx-auto mb-6"></div>
@@ -28,7 +28,7 @@ const Contact = () => {
           {/* Contact Information Card */}
           <Card className="animate-slide-up border-border/50">
             <CardHeader>
-              <CardTitle className="font-display text-2xl">Contact Information</CardTitle>
+              <CardTitle className="font-heading text-2xl">Contact Information</CardTitle>
               <CardDescription>We're here to help with your queries</CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -89,7 +89,7 @@ const Contact = () => {
           {/* Quick Action Card */}
           <Card className="animate-slide-up border-border/50" style={{ animationDelay: '0.1s' }}>
             <CardHeader>
-              <CardTitle className="font-display text-2xl">Quick Actions</CardTitle>
+              <CardTitle className="font-heading text-2xl">Quick Actions</CardTitle>
               <CardDescription>Choose the best way to reach us</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
