@@ -1,6 +1,13 @@
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <footer className="bg-secondary text-background py-12">
       <div className="container mx-auto px-4">
@@ -19,19 +26,28 @@ const Footer = () => {
             <h4 className="font-semibold text-primary mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#about" className="text-background/70 hover:text-primary transition-colors">
+                <button 
+                  onClick={() => scrollToSection('about')} 
+                  className="text-background/70 hover:text-primary transition-colors"
+                >
                   About Us
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#products" className="text-background/70 hover:text-primary transition-colors">
+                <button 
+                  onClick={() => scrollToSection('products')} 
+                  className="text-background/70 hover:text-primary transition-colors"
+                >
                   Our Products
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#contact" className="text-background/70 hover:text-primary transition-colors">
+                <button 
+                  onClick={() => scrollToSection('contact')} 
+                  className="text-background/70 hover:text-primary transition-colors"
+                >
                   Contact
-                </a>
+                </button>
               </li>
             </ul>
           </div>
