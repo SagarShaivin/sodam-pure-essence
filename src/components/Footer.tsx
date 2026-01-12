@@ -27,6 +27,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li>
                 <button 
+                  type="button"
                   onClick={() => scrollToSection('about')} 
                   className="text-background/70 hover:text-primary transition-colors"
                 >
@@ -35,6 +36,7 @@ const Footer = () => {
               </li>
               <li>
                 <button 
+                  type="button"
                   onClick={() => scrollToSection('products')} 
                   className="text-background/70 hover:text-primary transition-colors"
                 >
@@ -43,6 +45,7 @@ const Footer = () => {
               </li>
               <li>
                 <button 
+                  type="button"
                   onClick={() => scrollToSection('contact')} 
                   className="text-background/70 hover:text-primary transition-colors"
                 >
