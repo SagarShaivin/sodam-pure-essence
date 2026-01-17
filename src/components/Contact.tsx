@@ -63,9 +63,9 @@ const Contact = () => {
                 <div>
                   <p className="font-semibold text-foreground mb-1">Address</p>
                   <p className="text-muted-foreground">
-                    OPP. SWAMINARAYAN MANDIR,<br />
-                    KALUPUR, AHMEDABAD-1,<br />
-                    GUJARAT (A)
+                    Opp. Swaminarayan Mandir,<br />
+                    Kalupur, Ahmedabad-1,<br />
+                    Gujarat
                   </p>
                 </div>
               </div>
@@ -77,7 +77,7 @@ const Contact = () => {
                     size="icon" 
                     variant="outline"
                     className="hover:bg-primary hover:text-foreground hover:border-primary transition-all"
-                    onClick={() => window.open('#', '_blank')}
+                    onClick={() => window.open('https://www.instagram.com/sodamhing/', '_blank')}
                   >
                     <Instagram className="h-5 w-5" />
                   </Button>
@@ -114,7 +114,7 @@ const Contact = () => {
                   <strong className="text-foreground">Business Hours:</strong>
                 </p>
                 <p className="text-sm text-muted-foreground">
-                  Monday - Saturday: 9:00 AM - 7:00 PM<br />
+                  Monday - Saturday: 10:00 AM - 8:00 PM<br />
                   Sunday: Closed
                 </p>
               </div>

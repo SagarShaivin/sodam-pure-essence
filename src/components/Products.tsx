@@ -80,7 +80,7 @@ const Products = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Our Premium <span className="text-primary">Range</span>
+            Our Product <span className="text-primary">Range</span>
           </h2>
           <div className="h-1 w-20 bg-primary mx-auto mb-6"></div>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
