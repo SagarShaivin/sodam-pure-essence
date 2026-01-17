@@ -18,17 +18,17 @@ const About = () => {
             </h2>
             <div className="h-1 w-20 bg-primary mb-6"></div>
             <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-              Since <strong className="text-foreground">1956</strong>, SODAM has been synonymous with purity, authenticity, and the rich heritage of Indian spices. Manufactured by <strong className="text-foreground">M.M. SHAH & CO.</strong> in Ahmedabad, Gujarat, our premium Hing (Asafoetida) has been the secret ingredient in countless kitchens across India.
+              Since <strong className="text-foreground">1996</strong>, SODAM has been synonymous with purity, authenticity, and the rich heritage of Indian spices. Based in Ahmedabad, Gujarat, our premium Hing (Asafoetida) has been the secret ingredient in countless kitchens across India.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-              We take immense pride in sourcing the finest raw materials and subjecting them to rigorous quality checks. Every batch of SODAM Hing is lab-tested to ensure it meets our uncompromising standards of purity and aroma.
+              At SODAM, we believe in delivering only the finest quality Hing – 100% authentic, free from artificial compounds, and crafted using traditional methods passed down through generations. Our commitment to purity means you get the real, unadulterated essence of asafoetida in every pinch.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
               Whether you're a home chef creating family favorites or a professional restaurateur crafting culinary masterpieces, SODAM Hing delivers the perfect balance of strength and flavor that elevates every dish.
             </p>
             <div className="flex items-center gap-4">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary font-display">68+</div>
+                <div className="text-3xl font-bold text-primary font-display">28+</div>
                 <div className="text-sm text-muted-foreground">Years of Trust</div>
               </div>
               <div className="h-12 w-px bg-border"></div>
