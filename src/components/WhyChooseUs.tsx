@@ -8,8 +8,8 @@ const benefits = [
   },
   {
     icon: Shield,
-    title: "Lab-Tested Quality",
-    description: "Every batch undergoes rigorous quality checks and lab testing for purity",
+    title: "Authentic Quality",
+    description: "Crafted using traditional methods to preserve the genuine essence of hing",
   },
   {
     icon: Sparkles,
@@ -23,8 +23,8 @@ const benefits = [
   },
   {
     icon: Award,
-    title: "Legacy Since 1956",
-    description: "Nearly 7 decades of trust, quality, and customer satisfaction",
+    title: "Legacy Since 1996",
+    description: "Nearly 3 decades of trust, quality, and customer satisfaction",
   },
   {
     icon: CheckCircle,
