@@ -73,14 +73,14 @@ const Contact = () => {
               <div className="pt-4 border-t border-border">
                 <p className="font-semibold text-foreground mb-3">Follow Us</p>
                 <div className="flex gap-3">
-                  <Button 
-                    size="icon" 
-                    variant="outline"
-                    className="hover:bg-primary hover:text-foreground hover:border-primary transition-all"
-                    onClick={() => window.open('https://www.instagram.com/sodamhing/', '_blank')}
+                  <a 
+                    href="https://www.instagram.com/sodamhing/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center h-10 w-10 rounded-md border border-input bg-background hover:bg-primary hover:text-foreground hover:border-primary transition-all"
                   >
                     <Instagram className="h-5 w-5" />
-                  </Button>
+                  </a>
                 </div>
               </div>
             </CardContent>
