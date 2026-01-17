@@ -2,6 +2,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ShoppingBag, MessageCircle } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import productTadka1008 from "@/assets/product-tadka-1008.png";
 import productHing999 from "@/assets/product-hing-999.png";
 import productHing333 from "@/assets/product-hing-333.png";
@@ -57,15 +58,21 @@ const products = [
 ];
 
 const deliveryApps = [
-  { name: "Blinkit", url: "#" },
-  { name: "Zepto", url: "#" },
-  { name: "Instamart", url: "#" },
-  { name: "BigBasket", url: "#" },
+  { name: "Blinkit" },
+  { name: "Zepto" },
+  { name: "Instamart" },
+  { name: "BigBasket" },
 ];
 
 const Products = () => {
+  const navigate = useNavigate();
+  
   const handleBulkOrder = () => {
     window.open('https://wa.me/919825609527?text=Hello, I would like to inquire about bulk orders for SODAM Hing', '_blank');
+  };
+  
+  const handleDeliveryAppClick = (appName: string) => {
+    navigate(`/coming-soon?app=${encodeURIComponent(appName)}`);
   };
 
   return (
@@ -120,7 +127,7 @@ const Products = () => {
                         variant="outline" 
                         size="sm"
                         className="hover:bg-primary hover:text-foreground hover:border-primary transition-all"
-                        onClick={() => window.open(app.url, '_blank')}
+                        onClick={() => handleDeliveryAppClick(app.name)}
                       >
                         <ShoppingBag className="mr-2 h-3 w-3" />
                         {app.name}
