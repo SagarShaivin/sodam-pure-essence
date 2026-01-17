@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-bg.jpg";
+import sodamLogo from "@/assets/sodam-logo.png";
 import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
@@ -14,7 +15,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-[hsl(0,65%,40%)]/95 via-[hsl(0,65%,40%)]/85 to-[hsl(0,65%,40%)]/75 dark:from-[hsl(0,65%,25%)]/95 dark:via-[hsl(0,65%,25%)]/85 dark:to-[hsl(0,65%,25%)]/75"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[hsl(0,65%,40%)]/85 via-[hsl(0,65%,40%)]/75 to-[hsl(0,65%,40%)]/65 dark:from-[hsl(0,65%,25%)]/85 dark:via-[hsl(0,65%,25%)]/75 dark:to-[hsl(0,65%,25%)]/65"></div>
       </div>
 
       {/* Content */}
@@ -23,12 +24,19 @@ const Hero = () => {
           <p className="text-primary text-sm md:text-base tracking-widest uppercase mb-4 font-medium">
             Since 1956
           </p>
-          <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-primary drop-shadow-lg">
-            SODAM
-          </h1>
-          <p className="font-display text-2xl md:text-3xl lg:text-4xl text-white/80 mb-4 italic">
-            સ્વાદ ને સોડમનો સંગમ
-          </p>
+          
+          {/* Logo Image - with hue-rotate filter to change red to yellow/gold */}
+          <div className="flex justify-center mb-6">
+            <img 
+              src={sodamLogo} 
+              alt="SODAM - Compounded Asafoetida" 
+              className="w-64 md:w-80 lg:w-96 h-auto drop-shadow-2xl"
+              style={{ 
+                filter: "hue-rotate(-30deg) saturate(1.2) brightness(1.1)"
+              }}
+            />
+          </div>
+          
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto font-light">
             The Pure Essence of Flavor – Premium Hing You Can Trust
           </p>
